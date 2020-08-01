@@ -30,8 +30,9 @@ html {
     color: rgb(255, 255, 255);
     font-size: 2em;
     text-align: center;
-    margin: 20px;
-
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 1px black;
 }
 
 #description {
@@ -40,6 +41,7 @@ html {
     text-align: center;
     width: 50%;
     margin: auto;
+    text-shadow: 1px 1px black;
 }
 
 #tabs {
@@ -57,7 +59,7 @@ html {
     background-color: rgb(148, 50, 50);
     color: rgb(255, 255, 255);
     font-size: 1.8em;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 
@@ -99,20 +101,18 @@ html {
 }
 
 .name-text {
-    width: 70%;
+    width: 75%;
     display: inline-block;
 }
 
 .price-text {
-    width: 30%;
+    width: 25%;
     display: inline-block;
 }
 
-
-
 #contact-div {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -120,7 +120,34 @@ html {
 
 #text-div > p {
     margin: 10px;
+    text-shadow: 1px 1px black;
 }
 @media only screen and (max-width: 600px) {
+    #title {
+        font-size: 1.5em;
+    }
 
+    #description {
+        width: 85%;
+        font-size: 1.4em;
+    }
+
+    .menu-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom-text {
+        overflow: hidden;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    #contact-div {
+        font-size: 1.2em;
+    }
+
+    #tabs > div {
+        font-size: 1.5em;
+    }
 }
