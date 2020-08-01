@@ -3,10 +3,10 @@ function addHome(parent) {
     description.id = "description";
 
     let paragraph = document.createElement("p");
-    paragraph.textContent = "The Restaurant is pretty good, because it has good food. \
-        The Restaurant is pretty good, because it has good food. \
-        The Restaurant is pretty good, because it has good food. \
-        The Restaurant is pretty good, because it has good food."
+    paragraph.textContent = "The Restaurant is good, because it has good food. \
+        The Restaurant is good, because it has good food. \
+        The Restaurant is good, because it has good food. \
+        The Restaurant is good, because it has good food."
     
     description.appendChild(paragraph);
 
