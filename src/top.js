@@ -1,3 +1,4 @@
+// Add title and nav bar to the restaurant page
 function addTop(parent) {
     // Create main container for all 
     let main = document.createElement('div');

@@ -31,6 +31,7 @@ menuBtn.addEventListener("click", () => {
     addMenu(main);
 })
 
+// Event listener for contact button
 let contactBtn = document.getElementById("contact");
 contactBtn.addEventListener("click", () => {
     homeBtn.style.borderBottom = "none";

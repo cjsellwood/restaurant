@@ -2,6 +2,7 @@ function addMenu(parent) {
     let menu = document.createElement("div");
     menu.id = "menu-div";
     
+    // Data for menu element creation
     const sources = ['pizza.jpg', 'fish_and_chips.jpg', 'burger.jpg',
          'beef_ragu.jpg', 'pancakes.jpg', 'blueberry_cheesecake.jpg'];
 

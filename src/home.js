@@ -1,3 +1,4 @@
+// Add to restaurant page when home is selected
 function addHome(parent) {
     let description = document.createElement("div");
     description.id = "description";
